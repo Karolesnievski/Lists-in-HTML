@@ -40,4 +40,24 @@ body {
 #container #spis {
   width: 880px;
 }
+
+#container #spis ol {
+  margin-top: 5px;
+}
+
+#container #spis ol > li {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#container #spis ol > li > ul {
+  padding: 0;
+  margin-top: 5px;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+}
 /*# sourceMappingURL=style.css.map */
