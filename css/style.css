@@ -106,4 +106,14 @@ a:active {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+#container .scrollup {
+  position: fixed;
+  height: 64px;
+  width: 64px;
+  right: 50px;
+  bottom: 50px;
+  text-decoration: none;
+  background: url("./img/up.png") no-repeat 0px 0px;
+}
 /*# sourceMappingURL=style.css.map */
