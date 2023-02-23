@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #logo {
@@ -21,6 +21,7 @@ body {
   letter-spacing: 2px;
   border-bottom: 2px solid #33402a;
   text-align: center;
+  text-shadow: 2px 2px 0 #33402a, -2px -2px 0 #33402a, -2px -2px 0 #33402a, 2px 2px 0 #33402a;
   text-transform: uppercase;
   color: #fff;
   background-color: #485b3b;
