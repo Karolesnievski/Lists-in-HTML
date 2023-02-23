@@ -53,9 +53,15 @@ body {
 			font-size: 18px;
 			font-weight: 400;
 			text-transform: none;
+			list-style-type: none;
 		}
 		ol > li> ul >li {
 			margin: 0;
+		}
+		ol > li> ul >li::before {
+			content:"⟰";
+			margin-right: 5px;
+			color: #485b3b;
 		}
 	}
 }
