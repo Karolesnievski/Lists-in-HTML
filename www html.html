@@ -22,9 +22,15 @@ $.scrollTo(0);
 $('#link3').click(function(){$.scrollTo($('#maskicrt'), 500); });
 $('.scrollup').click(function(){$.scrollTo($('body'), 1000); });
 
-
-
 });
+// Pokaż podczas przewijania
+
+$(window).scroll(function()
+{
+    if($(this).scrollTop()>300)  $('.scrollup').fadeIn();
+    else $('.scrollup').fadeout();
+}
+);
 </script>
 
 </head>

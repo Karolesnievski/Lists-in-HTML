@@ -100,11 +100,11 @@ a:active {
 
 	.scrollup {
 		position: fixed;
+		display: none;
 		height: 64px;
 		width: 64px;
 		right: 50px;
 		bottom: 50px;
 		text-decoration: none;
-		background: url("./img/up.png") no-repeat 0px 0px;
 	}
 }
