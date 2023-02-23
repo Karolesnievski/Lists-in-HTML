@@ -39,6 +39,7 @@ body {
 
 #container #spis {
   width: 880px;
+  padding-left: 100px;
 }
 
 #container #spis ol {
@@ -55,9 +56,14 @@ body {
 #container #spis ol > li > ul {
   padding: 0;
   margin-top: 5px;
+  margin-left: 30px;
   letter-spacing: 0;
   font-size: 18px;
   font-weight: 400;
   text-transform: none;
+}
+
+#container #spis ol > li > ul > li {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
