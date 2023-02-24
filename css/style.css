@@ -116,4 +116,18 @@ a:active {
   bottom: 50px;
   text-decoration: none;
 }
+
+#stopka {
+  width: 100%;
+  height: 40px;
+  margin: 1px 0 0 0;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #485b3b;
+}
+
+#stopka p {
+  color: #fff;
+  text-shadow: 2px 2px 1px #000, -2px -2px 1px #000, 2px 2px 1px #000, -2px -2px 1px #000;
+}
 /*# sourceMappingURL=style.css.map */
